@@ -5,56 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Ronson - Uptown Funk</title>
     <style>
-        /* 1. Universal Selector */
+        /* 1) Universal Selector */
         * {
             font-family: Arial, sans-serif;
-            color: #333;
+            color: purple;
         }
 
-        /* 2. Type Selector */
+        /* 2) Type Selector */
         h1 {
-            color: purple;
+            color: blue;
             text-align: center;
         }
 
-        /* 3. Class Selector */
+        /* 3) Class Selector */
         .highlight {
             background-color: yellow;
             font-weight: bold;
         }
 
-        /* 4. ID Selector */
-        #chorus {
-            color: blue;
-            font-size: 1.2em;
-        }
-
-        /* 5. Child Selector */
-        p > a {
+        /* 4) ID Selector */
+        #special-line {
             color: red;
-            font-weight: bold;
+            font-size: 1.5em;
         }
 
-        /* 6. Descendant Selector */
-        p strong {
-            color: green;
-            text-transform: uppercase;
-        }
-
-        /* 7. Adjacent Sibling Selector */
-        h1 + p {
-            border-top: 2px solid rgb(204, 96, 96);
-        }
-
-        /* 8. General Sibling Selector */
-        h1 ~ p {
+        /* 5) Child Selector */
+        body > p {
             margin-left: 20px;
+        }
+
+        /* 6) Descendant Selector */
+        p a {
+            color: green;
+            text-decoration: none;
+        }
+
+        /* 7) Adjacent Sibling Combinator */
+        h1 + p {
+            font-style: italic;
+        }
+
+        /* 8) General Sibling Combinator */
+        h1 ~ p {
+            border-left: 4px solid orange;
+            padding-left: 10px;
         }
     </style>
 </head>
 <body><h1>Uptown Funk by Mark Ronson</h1>
     <hr>
-    <p>This is, that ice cold<br>
+    <p> This is, that ice cold<br>
         <a href="https://www.imdb.com/name/nm0000201/">Michelle Pfeiffer,</a> that white gold<br>
         This one for them hood girls<br>
         Them good girls straight masterpieces<br>
