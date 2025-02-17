@@ -12,44 +12,47 @@
         }
 
         /* 2) Type Selector */
-        h1 {
-            color: blue;
-            text-align: center;
-        }
+        h1 { 
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+      }
+
 
         /* 3) Class Selector */
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }
+        .chorus { 
+color: purple; 
+font-size: large; 
+font-family: "Courier New", Courier, monospace; 
+}
 
         /* 4) ID Selector */
-        #special-line {
-            color: red;
-            font-size: 1.5em;
-        }
+        #Skippy { 
+font-size: x-large; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
 
         /* 5) Child Selector */
-        body > p {
-            margin-left: 20px;
-        }
+        body > hr { 
+width: 600px; 
+margin-left: 0px; 
+} 
 
         /* 6) Descendant Selector */
-        p a {
-            color: green;
-            text-decoration: none;
-        }
+        body a 
+      { 
+        color: rgb(160, 221, 162); 
+      }
 
         /* 7) Adjacent Sibling Combinator */
-        h1 + p {
-            font-style: italic;
-        }
+        hr + p { 
+        font-size: inherit !important; 
+        font-family: inherit !important; 
+        margin: 20px; 
+      }
 
         /* 8) General Sibling Combinator */
-        h1 ~ p {
-            border-left: 4px solid orange;
-            padding-left: 10px;
-        }
+        hr ~ p { 
+        background-color: whitesmoke; 
+      }
     </style>
 </head>
 <body><h1>Uptown Funk by Mark Ronson</h1>
@@ -69,7 +72,7 @@
         Say my name you know who I am<br>
         I'm too hot (hot damn)<br>
         Am I bad 'bout that money, break it down</p>
-        <p><strong>Girls hit your hallelujah (whoo)<br>
+        <p class="chorus"><strong>Girls hit your hallelujah (whoo)<br>
         Girls hit your hallelujah (whoo)<br>
         Girls hit your hallelujah (whoo)<br>
         'Cause uptown funk gon' give it to you<br>
@@ -90,7 +93,7 @@
         Ride to Harlem, Hollywood<br>
         Jackson, Mississippi<br>
         If we show up, we gon' show out<br>
-        Smoother than a fresh jar of <a href="https://www.peanutbutter.com/">Skippy</a></p>
+        Smoother than a fresh jar of <a href="https://www.peanutbutter.com/"><cite id="Skippy">Skippy</cite></a></p>
         <p>I'm too hot (hot damn)<br>
         Called a police and a fireman<br>
         I'm too hot (hot damn)<br>
@@ -100,7 +103,7 @@
         I'm too hot (hot damn)<br>
         Am I bad 'bout that money<br>
         Break it down</p>
-        <p><strong>Girls hit your hallelujah (whoo)<br>
+        <p class="chorus"><strong>Girls hit your hallelujah (whoo)<br>
         Girls hit your hallelujah (whoo)<br>
         Girls hit your hallelujah (whoo)<br>
         'Cause uptown funk gon' give it to you<br>
