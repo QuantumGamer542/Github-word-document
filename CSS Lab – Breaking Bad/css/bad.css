@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Heart Breaking Bad';
+    src: url('../font/Heart Breaking Bad.woff2') format('woff2'),
+         url('../font/Heart Breaking Bad.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bb-font {
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+
+
+
+
